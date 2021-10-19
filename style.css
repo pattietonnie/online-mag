@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+* {
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #e6d2a9;
+  box-sizing: border-box;
+}
+
+#logo {
+  width: 300px;
+  background-color: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner_main_menu {
+  margin: 0 auto;
+  width: 1370px;
+}
+
+.inner_main_menu ul {
+  margin: 0;
+  padding: 5px 0 0;
+  list-style: none;
+  text-align: right;
+}
+
+.inner_main_menu ul li {
+float: none;
+display: inline-block;
+}
+
+.inner_main_menu ul li:nth-child(1) {
+float: left;
+}
+
+.inner_main_menu ul li:nth-child(2) {
+float: left;
+}
+
+.inner_main_menu ul li:nth-child(3) {
+float: right;
+}
+
+.inner_main_menu ul li:nth-child(4) {
+float: right;
+}
+
+.inner_main_menu ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 50px;
+  padding-bottom: 10px;
+  color: #775036;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 20px;
+  margin-top: -45px;
+  cursor: pointer;
+}
+
+.inner_main_menu ul li a:hover {
+  color: #839abe;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  position: static;
+  top: 200px;
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center center;
+  margin-top: -160px;
+
+}
+
+.banner h2 {
+  padding-top: 10%;
+  font-size: 197px;
+  font-family: 'Viaoda Libre', cursive;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #839abe;
+  background-color: transparent;
+  margin-left: 77px;
+}
+
+.boxet {
+  width: 635px;
+  height: 400px;
+  margin: 100px auto;
+  background: #d2ba90;
+  position: relative;
+  margin-right: 85px;
+}
+
+.boxet h1 {
+  margin-top: 130px;
+  padding: 0;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+
+.boxet p {
+  transform: translateY(-70%);
+  background-color: transparent;
+  text-align: center;
+  padding: 0;
+  margin-top: 120px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Viaoda Libre', cursive;
+}
+
+.boxet #test {
+  margin-top: -295px;
+  background-color: transparent;
+  font-family: 'Viaoda Libre', cursive;
+  text-align: center;
+}
+
+.boxet button {
+  position: relative;
+  left: 262px;
+  top: 240px;
+  display: block;
+  border: 0;
+  line-height: 1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #839abe;
+}
+
+.boxet button a {
+  font-size: 16px;
+  font-family: 'Viaoda Libre', cursive;
+  color: #f6f1ce;
+  background: #839abe;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.boxto {
+  width: 635px;
+  height: 460px;
+  margin: -530px auto;
+  background: #d2ba90;
+  position: relative;
+  margin-left: 85px;
+  background-image: url("../images/vandbakkelse.png");
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.bannerbox {
+  background-color: #f6f0ce;
+  width: 100%;
+  padding: 0px;
+  height: 700px;
+  margin: 0;
+  margin-top: 630px;
+}
+
+.bannerbox h3 {
+  background-color: transparent;
+  margin-left: 85px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+  font-size: 50px;
+  font-family: 'Viaoda Libre', cursive;
+  color: #775036;
+}
+
+.bannerbox #vaegt {
+  width: 290px;
+  margin-left: 85px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.bannerbox #springform {
+  width: 290px;
+  margin-left: 35px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.bannerbox #kagerulle {
+  width: 290px;
+  margin-left: 35px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.bannerbox #fad {
+  width: 290px;
+  margin-left: 35px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.bannerbox .priset {
+  width: 290px;
+  margin-left: 85px;
+  margin-top: -10px;
+  background-color: #f6f0ce;
+
+}
+
+.bannerbox .priset li {
+  float: none;
+  display: inline-block;
+  list-style: none;
+  background-color: #f6f0ce;
+  padding-bottom: 5px;
+}
+
+.bannerbox .priset li a {
+  background-color: #f6f0ce;
+  font-size: 15px;
+  font-family: 'Viaoda Libre', cursive;
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
+}
+
+.bannerbox .et {
+  width: 290px;
+  margin-left: 85px;
+  margin-top: -40px;
+}
+
+.bannerbox .et p {
+  background-color: #f6f0ce;
+  font-size: 30px;
+  font-family: 'Viaoda Libre', cursive;
+}
+.bannerbox .pristo {
+  width: 290px;
+  margin-left: 414px;
+  margin-top: -89px;
+}
+
+.bannerbox .pristo p {
+  background-color: #f6f0ce;
+  font-size: 15px;
+  font-family: 'Viaoda Libre', cursive;
+  padding-bottom: 5px;
+}
+
+.bannerbox .to {
+  width: 290px;
+  margin-left: 414px;
+  margin-top: -40px;
+}
+
+.bannerbox .to p {
+  background-color: #f6f0ce;
+  font-size: 30px;
+  font-family: 'Viaoda Libre', cursive;
+}
+.bannerbox .pristre {
+  width: 290px;
+  margin-left: 743px;
+  margin-top: -133px;
+}
+
+.bannerbox .pristre p {
+  background-color: #f6f0ce;
+  font-size: 15px;
+  font-family: 'Viaoda Libre', cursive;
+  padding-bottom: 5px;
+}
+
+.bannerbox .tre {
+  width: 290px;
+  margin-left: 743px;
+  margin-top: -40px;
+}
+
+.bannerbox .tre p {
+  background-color: #f6f0ce;
+  font-size: 30px;
+  font-family: 'Viaoda Libre', cursive;
+}
+.bannerbox .prisfire {
+  width: 290px;
+  margin-left: 1072px;
+  margin-top: -131px;
+}
+
+.bannerbox .prisfire p {
+  background-color: #f6f0ce;
+  font-size: 15px;
+  font-family: 'Viaoda Libre', cursive;
+  padding-bottom: 5px;
+}
+
+.bannerbox .fire {
+  width: 290px;
+  margin-left: 1072px;
+  margin-top: -40px;
+}
+
+.bannerbox .fire p {
+  background-color: #f6f0ce;
+  font-size: 30px;
+  font-family: 'Viaoda Libre', cursive;
+}
+
+.bannerbox button {
+  position: relative;
+  left: 46.5%;
+  top: auto;
+  display: block;
+  border: 0;
+  line-height: 1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #839abe;
+  font-size: 16px;
+  font-family: 'Viaoda Libre', cursive;
+  color: #f6f1ce;
+  background: #839abe;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.row {
+  margin-left: 85px;
+}
+
+.row h5 {
+  font-size: 50px;
+  font-family: 'Viaoda Libre', cursive;
+  color: #775036;
+  margin: 25px auto;
+}
+
+.row li {
+  float: none;
+  display: inline-block;
+  list-style: none;
+  padding-bottom: 5px;
+  width: 395px;
+}
+
+.row li a {
+  font-size: 40px;
+  font-family: 'Viaoda Libre', cursive;
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
+}
+
+.kolonne {
+  float: left;
+  width: 33,33%;
+  padding-right: 45px;
+}
+
+#forste {
+  width: 395px;
+}
+
+.kolonne p {
+  font-size: 15px;
+  font-family: 'Viaoda Libre', cursive;
+  margin-top: 0;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* SMØR ELLER MARGARINE? */
+.baggrundvb .boxtre {
+  width: 1272px;
+  height: 800px;
+  background: #d2ba90;
+  position: relative;
+  margin-left: 85px;
+  background-image: url("../images/vandbakkelse.png");
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.5;
+  margin-top: 0px;
+}
+
+.baggrundvb .boxtre .boxtreenhalv {
+  width: 1102px;
+  height: 600px;
+  background: #775036;
+  position: relative;
+  margin-left: 85px;
+  border-radius: 20px;
+  border: 5px #839abe;
+  opacity: 0.8;
+}
