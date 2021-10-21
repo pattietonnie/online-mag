@@ -3,8 +3,8 @@
 * {
   margin-right: 0px;
   margin-left: 0px;
+  margin-bottom: 0;
   background-color: #e6d2a9;
-  box-sizing: border-box;
 }
 
 #logo {
@@ -17,7 +17,8 @@
 
 .inner_main_menu {
   margin: 0 auto;
-  width: 1370px;
+  max-width: 1370px;
+  min-width: 500px;
 }
 
 .inner_main_menu ul {
@@ -65,7 +66,8 @@ float: right;
 }
 
 .banner {
-  width: 100%;
+  max-width: 100%;
+  min-width: 350px;
   height: 600px;
   position: static;
   top: 200px;
@@ -88,7 +90,8 @@ float: right;
 }
 
 .boxet {
-  width: 635px;
+  max-width: 635px;
+  min-width: 350px;
   height: 400px;
   margin: 100px auto;
   background: #d2ba90;
@@ -137,6 +140,7 @@ float: right;
   padding: 10px 20px;
   border-radius: 10px;
   background: #839abe;
+  margin-top: 25px;
 }
 
 .boxet button a {
@@ -147,7 +151,6 @@ float: right;
   text-decoration: none;
   cursor: pointer;
 }
-
 
 .boxto {
   width: 635px;
@@ -172,7 +175,7 @@ float: right;
 }
 
 .bannerbox h3 {
-  background-color: transparent;
+  background-color: #f6f0ce;
   margin-left: 85px;
   padding-top: 20px;
   margin-bottom: 25px;
@@ -181,147 +184,60 @@ float: right;
   color: #775036;
 }
 
-.bannerbox #vaegt {
-  width: 290px;
-  margin-left: 85px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
-.bannerbox #springform {
-  width: 290px;
-  margin-left: 35px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
-.bannerbox #kagerulle {
-  width: 290px;
-  margin-left: 35px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
-.bannerbox #fad {
-  width: 290px;
-  margin-left: 35px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
-.bannerbox .priset {
-  width: 290px;
-  margin-left: 85px;
-  margin-top: -10px;
+.dethele {
   background-color: #f6f0ce;
-
+  margin-left: 85px;
 }
 
-.bannerbox .priset li {
+.dethele li {
+  background-color: #f6f0ce;
   float: none;
   display: inline-block;
   list-style: none;
-  background-color: #f6f0ce;
   padding-bottom: 5px;
+  width: 280px;
 }
 
-.bannerbox .priset li a {
+.dethele li a {
   background-color: #f6f0ce;
-  font-size: 15px;
+  font-size: 30px;
   font-family: 'Viaoda Libre', cursive;
   text-decoration: none;
   list-style: none;
   color: #000000;
 }
 
-.bannerbox .et {
-  width: 290px;
-  margin-left: 85px;
-  margin-top: -40px;
+.kolonnen {
+  float: left;
+  padding: 0;
+  background-color: #f6f0ce;
+  width: 280px;
+  margin-right: 50px;
 }
 
-.bannerbox .et p {
+#anden {
+  width: 280px;
   background-color: #f6f0ce;
-  font-size: 30px;
-  font-family: 'Viaoda Libre', cursive;
-}
-.bannerbox .pristo {
-  width: 290px;
-  margin-left: 414px;
-  margin-top: -89px;
 }
 
-.bannerbox .pristo p {
-  background-color: #f6f0ce;
+.kolonnen p {
   font-size: 15px;
   font-family: 'Viaoda Libre', cursive;
-  padding-bottom: 5px;
-}
-
-.bannerbox .to {
-  width: 290px;
-  margin-left: 414px;
-  margin-top: -40px;
-}
-
-.bannerbox .to p {
+  margin-top: 0;
   background-color: #f6f0ce;
-  font-size: 30px;
-  font-family: 'Viaoda Libre', cursive;
-}
-.bannerbox .pristre {
-  width: 290px;
-  margin-left: 743px;
-  margin-top: -133px;
+  margin-bottom: 0;
 }
 
-.bannerbox .pristre p {
-  background-color: #f6f0ce;
-  font-size: 15px;
-  font-family: 'Viaoda Libre', cursive;
-  padding-bottom: 5px;
-}
-
-.bannerbox .tre {
-  width: 290px;
-  margin-left: 743px;
-  margin-top: -40px;
-}
-
-.bannerbox .tre p {
-  background-color: #f6f0ce;
-  font-size: 30px;
-  font-family: 'Viaoda Libre', cursive;
-}
-.bannerbox .prisfire {
-  width: 290px;
-  margin-left: 1072px;
-  margin-top: -131px;
-}
-
-.bannerbox .prisfire p {
-  background-color: #f6f0ce;
-  font-size: 15px;
-  font-family: 'Viaoda Libre', cursive;
-  padding-bottom: 5px;
-}
-
-.bannerbox .fire {
-  width: 290px;
-  margin-left: 1072px;
-  margin-top: -40px;
-}
-
-.bannerbox .fire p {
-  background-color: #f6f0ce;
-  font-size: 30px;
-  font-family: 'Viaoda Libre', cursive;
+.dethele::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .bannerbox button {
   position: relative;
-  left: 46.5%;
-  top: auto;
+  left: 46%;
+  top: 20px;
   display: block;
   border: 0;
   line-height: 1;
@@ -371,12 +287,14 @@ float: right;
 
 #forste {
   width: 395px;
+  height: 490px;
 }
 
 .kolonne p {
   font-size: 15px;
   font-family: 'Viaoda Libre', cursive;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .row::after {
@@ -384,27 +302,333 @@ float: right;
   display: table;
   clear: both;
 }
-/* SMØR ELLER MARGARINE? */
-.baggrundvb .boxtre {
-  width: 1272px;
-  height: 800px;
-  background: #d2ba90;
-  position: relative;
-  margin-left: 85px;
-  background-image: url("../images/vandbakkelse.png");
-  background-size: cover;
-  background-position: center center;
-  opacity: 0.5;
-  margin-top: 0px;
+
+.boxblaa {
+  background-color: #839abe;
+  width: 96.5%;
+  padding: 30px;
+  height: 110px;
+  display: inline-block;
 }
 
-.baggrundvb .boxtre .boxtreenhalv {
-  width: 1102px;
-  height: 600px;
-  background: #775036;
-  position: relative;
-  margin-left: 85px;
-  border-radius: 20px;
-  border: 5px #839abe;
+.some {
+  width: 50%;
+  margin-left: 60px;
+  display: inline-block;
+}
+
+.some p {
+  font-size: 30px;
+  font-family: 'Viaoda Libre', cursive;
+  margin-top: -10px;
+  margin-bottom: 0;
+  background-color: #839abe;
+  padding-bottom: 0;
+  color: #f6f1ce;
+}
+
+.somebillede {
+  padding-top: 10px;
+  background-color: #839abe;
+}
+
+.somebillede img {
+  width: 180px;
+  background-color: #839abe;
+  margin-left: -10px;
+}
+
+form {
+  width: 600px;
+  display: inline-block;
+  background-color: #839abe;
+  float: right;
+  margin-right: 35px;
+  margin-top: -130px;
+}
+
+input[type=text], input[type=submit] {
+  width: 30%%;
+  padding: 8px;
+  margin-top: 10px;
+  display: inline-block;
+  border: 2px solid #775036;
+  background-color: white;
+  border-radius: 10px;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 20px;
+  color: #839abe;
   opacity: 0.8;
+  float: right;
+  margin-right: 20px;
+}
+
+.containeret {
+  background-color: #839abe;
+  padding: 5px;
+}
+
+.containeret p {
+  font-size: 30px;
+  font-family: 'Viaoda Libre', cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 95px;
+  background-color: #839abe;
+  color: #f6f1ce;
+
+}
+
+input[type=submit] {
+  background-color: #f6f1ce;
+  color: #839abe;
+  border: none;
+  opacity: 1.2;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/* SMØR ELLER MARGARINE? */
+.artiklen {
+  width: 100%;
+}
+
+#baggrundsbillede {
+  margin-left: 85px;
+  margin-bottom: -5px;
+  width: 1275px;
+}
+
+.rows h1 {
+  position: absolute;
+  top: 215px;
+  left: 250px;
+  background-color: transparent;
+  color: #839abe;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 70px;
+  width: 480px;
+}
+
+.rows h2 {
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  background-color: transparent;
+  color: #839abe;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 70px;
+  width: 480px;
+}
+
+.columnone {
+  float: left;
+  width: 210px;
+  background-color: transparent;
+  position: absolute;
+  top: 175px;
+  right: 490px;
+}
+
+.columnone p {
+  background-color: transparent;
+  color: #f6f1ce;
+  text-align: justify;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 16.5px;
+}
+
+.columntwo {
+  float: left;
+  width: 210px;
+  background-color: transparent;
+  position: absolute;
+  top: 175px;
+  right: 250px;
+}
+
+.columntwo p {
+  background-color: transparent;
+  color: #f6f1ce;
+  text-align: justify;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 16.5px;
+}
+.columnthree {
+  float: left;
+  width: 210px;
+  background-color: transparent;
+  position: absolute;
+  top: 550px;
+  left: 490px;
+}
+
+.columnthree p {
+  background-color: transparent;
+  color: #f6f1ce;
+  text-align: justify;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 16.5px;
+}
+
+.columnfour {
+  float: left;
+  width: 210px;
+  background-color: transparent;
+  position: absolute;
+  top: 550px;
+  left: 250px;
+}
+
+.columnfour p {
+  background-color: transparent;
+  color: #f6f1ce;
+  text-align: justify;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 16.5px;
+}
+
+#billedeafvb {
+  width: 450px;
+  top: 570px;
+  right: 250px;
+  position: absolute;
+}
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowsen:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.raekke:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowsen h1 {
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    background-color: transparent;
+    color: #839abe;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 75px;
+    width: 480px;
+  }
+
+  .rowsen h2 {
+    position: absolute;
+    top: 235px;
+    left: 230px;
+    background-color: transparent;
+    color: #839abe;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 75px;
+    width: 480px;
+  }
+
+.kolonneet {
+  float: left;
+  width: 210px;
+  background-color: transparent;
+  position: absolute;
+  top: 185px;
+  right: 470px;
+}
+
+.kolonneet p {
+  background-color: transparent;
+  color: #f6f1ce;
+  text-align: justify;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 16.5px;
+}
+
+.kolonneto {
+  float: left;
+  width: 210px;
+  background-color: transparent;
+  position: absolute;
+  top: 185px;
+  right: 230px;
+}
+
+.kolonneto p {
+  background-color: transparent;
+  color: #f6f1ce;
+  text-align: justify;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 16.5px;
+}
+
+.raekke h1 {
+  position: absolute;
+  top: 155px;
+  left: 250px;
+  background-color: transparent;
+  color: #839abe;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 72px;
+  width: 480px;
+}
+
+.raekke h2 {
+  position: absolute;
+  top: 240px;
+  left: 250px;
+  background-color: transparent;
+  color: #839abe;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 72px;
+  width: 480px;
+}
+
+.forstekolonne {
+  float: left;
+  width: 210px;
+  background-color: transparent;
+  position: absolute;
+  top: 420px;
+  right: 490px;
+}
+
+.forstekolonne p {
+  background-color: transparent;
+  color: #f6f1ce;
+  text-align: justify;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 16.5px;
+}
+
+.andenkolonne {
+  float: left;
+  width: 450px;
+  background-color: transparent;
+  position: absolute;
+  top: 420px;
+  left: 0px;
+}
+
+.andenkolonne p {
+  background-color: transparent;
+  color: #f6f1ce;
+  text-align: justify;
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 16.5px;
+}
+#billedeaftaerte {
+  width: 450px;
+  top: 253px;
+  right: 250px;
+  position: absolute;
 }
