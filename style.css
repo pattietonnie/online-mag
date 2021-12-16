@@ -1,634 +1,411 @@
-@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url("https://use.typekit.net/pgx6xsy.css");
+
+:root {
+  --babyblue: #a4b2db;
+  --white: #f9f4f3;
+  --darkblue: #241e4e;
+  --brown: #d4c6a9;
+  --darkbrown: #82735c;
+  --graa: #b5b5b5;
+
+  --menu-speed: 0.75s;
+
+  --teksturmobil: url('../images/teksturmobil.png');
+  --franskbroed: url('../images/franskbroedmobil.png');
+  --hvede: url('../images/hvedemobil.png');
+  --computer: url('../images/amocomputer.png')
+}
 
 * {
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-bottom: 0;
-  background-color: #e6d2a9;
-}
-
-#logo {
-  width: 300px;
-  background-color: transparent;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.inner_main_menu {
-  margin: 0 auto;
-  max-width: 1370px;
-  min-width: 500px;
-}
-
-.inner_main_menu ul {
   margin: 0;
-  padding: 5px 0 0;
-  list-style: none;
-  text-align: right;
-}
-
-.inner_main_menu ul li {
-float: none;
-display: inline-block;
-}
-
-.inner_main_menu ul li:nth-child(1) {
-float: left;
-}
-
-.inner_main_menu ul li:nth-child(2) {
-float: left;
-}
-
-.inner_main_menu ul li:nth-child(3) {
-float: right;
-}
-
-.inner_main_menu ul li:nth-child(4) {
-float: right;
-}
-
-.inner_main_menu ul li a {
-  text-decoration: none;
-  display: block;
-  padding: 10px 50px;
-  padding-bottom: 10px;
-  color: #775036;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 20px;
-  margin-top: -45px;
-  cursor: pointer;
-}
-
-.inner_main_menu ul li a:hover {
-  color: #839abe;
-}
-
-.banner {
-  max-width: 100%;
-  min-width: 350px;
-  height: 600px;
-  position: static;
-  top: 200px;
-  background-image: url("../images/banner.png");
-  background-size: cover;
-  background-position: center center;
-  margin-top: -160px;
-
-}
-
-.banner h2 {
-  padding-top: 10%;
-  font-size: 197px;
-  font-family: 'Viaoda Libre', cursive;
-  font-weight: 100;
-  text-transform: uppercase;
-  color: #839abe;
-  background-color: transparent;
-  margin-left: 77px;
-}
-
-.boxet {
-  max-width: 635px;
-  min-width: 350px;
-  height: 400px;
-  margin: 100px auto;
-  background: #d2ba90;
-  position: relative;
-  margin-right: 85px;
-}
-
-.boxet h1 {
-  margin-top: 130px;
   padding: 0;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 60px;
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  top: 40%;
-  transform: translateY(-50%);
-  background-color: transparent;
+  background-color: var(--babyblue);
 }
 
-.boxet p {
-  transform: translateY(-70%);
-  background-color: transparent;
-  text-align: center;
-  padding: 0;
-  margin-top: 120px;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-family: 'Viaoda Libre', cursive;
+h1 {
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white);
 }
 
-.boxet #test {
-  margin-top: -295px;
-  background-color: transparent;
-  font-family: 'Viaoda Libre', cursive;
-  text-align: center;
+h2 {
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white);
 }
 
-.boxet button {
-  position: relative;
-  left: 262px;
-  top: 240px;
-  display: block;
-  border: 0;
-  line-height: 1;
-  padding: 10px 20px;
-  border-radius: 10px;
-  background: #839abe;
-  margin-top: 25px;
+h3 {
+  font-family: bebas-neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white);
 }
 
-.boxet button a {
-  font-size: 16px;
-  font-family: 'Viaoda Libre', cursive;
-  color: #f6f1ce;
-  background: #839abe;
-  text-decoration: none;
-  cursor: pointer;
+p {
+  font-family: bebas-neue, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: var(--white);
 }
 
-.boxto {
-  width: 635px;
-  height: 460px;
-  margin: -530px auto;
-  background: #d2ba90;
-  position: relative;
-  margin-left: 85px;
-  background-image: url("../images/vandbakkelse.png");
-  background-size: cover;
-  background-position: center center;
+/* mobil versionen */
 
-}
+@media screen and (max-width: 500px) {
 
-.bannerbox {
-  background-color: #f6f0ce;
-  width: 100%;
-  padding: 0px;
-  height: 700px;
-  margin: 0;
-  margin-top: 630px;
-}
+  h1 {
+    font-size: 40px;
+  }
 
-.bannerbox h3 {
-  background-color: #f6f0ce;
-  margin-left: 85px;
-  padding-top: 20px;
-  margin-bottom: 25px;
-  font-size: 50px;
-  font-family: 'Viaoda Libre', cursive;
-  color: #775036;
-}
+  h2 {
+    font-size: 30px;
+  }
 
-.dethele {
-  background-color: #f6f0ce;
-  margin-left: 85px;
-}
-
-.dethele li {
-  background-color: #f6f0ce;
-  float: none;
-  display: inline-block;
-  list-style: none;
-  padding-bottom: 5px;
-  width: 280px;
-}
-
-.dethele li a {
-  background-color: #f6f0ce;
-  font-size: 30px;
-  font-family: 'Viaoda Libre', cursive;
-  text-decoration: none;
-  list-style: none;
-  color: #000000;
-}
-
-.kolonnen {
-  float: left;
-  padding: 0;
-  background-color: #f6f0ce;
-  width: 280px;
-  margin-right: 50px;
-}
-
-#anden {
-  width: 280px;
-  background-color: #f6f0ce;
-}
-
-.kolonnen p {
-  font-size: 15px;
-  font-family: 'Viaoda Libre', cursive;
-  margin-top: 0;
-  background-color: #f6f0ce;
-  margin-bottom: 0;
-}
-
-.dethele::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.bannerbox button {
-  position: relative;
-  left: 46%;
-  top: 20px;
-  display: block;
-  border: 0;
-  line-height: 1;
-  padding: 10px 20px;
-  border-radius: 10px;
-  background: #839abe;
-  font-size: 16px;
-  font-family: 'Viaoda Libre', cursive;
-  color: #f6f1ce;
-  background: #839abe;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.row {
-  margin-left: 85px;
-}
-
-.row h5 {
-  font-size: 50px;
-  font-family: 'Viaoda Libre', cursive;
-  color: #775036;
-  margin: 25px auto;
-}
-
-.row li {
-  float: none;
-  display: inline-block;
-  list-style: none;
-  padding-bottom: 5px;
-  width: 395px;
-}
-
-.row li a {
+  h3 {
   font-size: 40px;
-  font-family: 'Viaoda Libre', cursive;
-  text-decoration: none;
-  list-style: none;
-  color: #000000;
-}
-
-.kolonne {
-  float: left;
-  width: 33,33%;
-  padding-right: 45px;
-}
-
-#forste {
-  width: 395px;
-  height: 490px;
-}
-
-.kolonne p {
-  font-size: 15px;
-  font-family: 'Viaoda Libre', cursive;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.boxblaa {
-  background-color: #839abe;
-  width: 96.5%;
-  padding: 30px;
-  height: 110px;
-  display: inline-block;
-}
-
-.some {
-  width: 50%;
-  margin-left: 60px;
-  display: inline-block;
-}
-
-.some p {
-  font-size: 30px;
-  font-family: 'Viaoda Libre', cursive;
-  margin-top: -10px;
-  margin-bottom: 0;
-  background-color: #839abe;
-  padding-bottom: 0;
-  color: #f6f1ce;
-}
-
-.somebillede {
-  padding-top: 10px;
-  background-color: #839abe;
-}
-
-.somebillede img {
-  width: 180px;
-  background-color: #839abe;
-  margin-left: -10px;
-}
-
-form {
-  width: 600px;
-  display: inline-block;
-  background-color: #839abe;
-  float: right;
-  margin-right: 35px;
-  margin-top: -130px;
-}
-
-input[type=text], input[type=submit] {
-  width: 30%%;
-  padding: 8px;
-  margin-top: 10px;
-  display: inline-block;
-  border: 2px solid #775036;
-  background-color: white;
-  border-radius: 10px;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 20px;
-  color: #839abe;
-  opacity: 0.8;
-  float: right;
-  margin-right: 20px;
-}
-
-.containeret {
-  background-color: #839abe;
-  padding: 5px;
-}
-
-.containeret p {
-  font-size: 30px;
-  font-family: 'Viaoda Libre', cursive;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 95px;
-  background-color: #839abe;
-  color: #f6f1ce;
-
-}
-
-input[type=submit] {
-  background-color: #f6f1ce;
-  color: #839abe;
-  border: none;
-  opacity: 1.2;
-}
-
-input[type=submit]:hover {
-  opacity: 0.8;
-}
-
-/* SMØR ELLER MARGARINE? */
-.artiklen {
-  width: 100%;
-}
-
-#baggrundsbillede {
-  margin-left: 85px;
-  margin-bottom: -5px;
-  width: 1275px;
-}
-
-.rows h1 {
-  position: absolute;
-  top: 215px;
-  left: 250px;
-  background-color: transparent;
-  color: #839abe;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 70px;
-  width: 480px;
-}
-
-.rows h2 {
-  position: absolute;
-  top: 300px;
-  left: 250px;
-  background-color: transparent;
-  color: #839abe;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 70px;
-  width: 480px;
-}
-
-.columnone {
-  float: left;
-  width: 210px;
-  background-color: transparent;
-  position: absolute;
-  top: 175px;
-  right: 490px;
-}
-
-.columnone p {
-  background-color: transparent;
-  color: #f6f1ce;
-  text-align: justify;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 16.5px;
-}
-
-.columntwo {
-  float: left;
-  width: 210px;
-  background-color: transparent;
-  position: absolute;
-  top: 175px;
-  right: 250px;
-}
-
-.columntwo p {
-  background-color: transparent;
-  color: #f6f1ce;
-  text-align: justify;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 16.5px;
-}
-.columnthree {
-  float: left;
-  width: 210px;
-  background-color: transparent;
-  position: absolute;
-  top: 550px;
-  left: 490px;
-}
-
-.columnthree p {
-  background-color: transparent;
-  color: #f6f1ce;
-  text-align: justify;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 16.5px;
-}
-
-.columnfour {
-  float: left;
-  width: 210px;
-  background-color: transparent;
-  position: absolute;
-  top: 550px;
-  left: 250px;
-}
-
-.columnfour p {
-  background-color: transparent;
-  color: #f6f1ce;
-  text-align: justify;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 16.5px;
-}
-
-#billedeafvb {
-  width: 450px;
-  top: 570px;
-  right: 250px;
-  position: absolute;
-}
-
-.rows:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.rowsen:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.raekke:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.rowsen h1 {
-    position: absolute;
-    top: 150px;
-    left: 230px;
-    background-color: transparent;
-    color: #839abe;
-    font-family: 'Viaoda Libre', cursive;
-    font-size: 75px;
-    width: 480px;
   }
 
-  .rowsen h2 {
-    position: absolute;
-    top: 235px;
-    left: 230px;
+  #baggrund_tekstur {
     background-color: transparent;
-    color: #839abe;
-    font-family: 'Viaoda Libre', cursive;
-    font-size: 75px;
-    width: 480px;
+    background-image: var(--teksturmobil);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 
-.kolonneet {
-  float: left;
-  width: 210px;
-  background-color: transparent;
-  position: absolute;
-  top: 185px;
-  right: 470px;
-}
 
-.kolonneet p {
-  background-color: transparent;
-  color: #f6f1ce;
-  text-align: justify;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 16.5px;
-}
+/*burgermenu start*/
+  .menu-wrap {
+    position: fixed;
+    top: 20px;
+    left: 25px;
+    z-index: 1;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
 
-.kolonneto {
-  float: left;
-  width: 210px;
-  background-color: transparent;
-  position: absolute;
-  top: 185px;
-  right: 230px;
-}
+  .menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+  }
 
-.kolonneto p {
-  background-color: transparent;
-  color: #f6f1ce;
-  text-align: justify;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 16.5px;
-}
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    padding: 1rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.raekke h1 {
-  position: absolute;
-  top: 155px;
-  left: 250px;
-  background-color: transparent;
-  color: #839abe;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 72px;
-  width: 480px;
-}
+  .menu-wrap .hamburger > div {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
 
-.raekke h2 {
-  position: absolute;
-  top: 240px;
-  left: 250px;
-  background-color: transparent;
-  color: #839abe;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 72px;
-  width: 480px;
-}
+  .menu-wrap .hamburger > div:before,
+  .menu-wrap .hamburger > div::after {
+    content:'';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+  }
 
-.forstekolonne {
-  float: left;
-  width: 210px;
-  background-color: transparent;
-  position: absolute;
-  top: 420px;
-  right: 490px;
-}
+  .menu-wrap .hamburger > div::after {
+    top: 10px;
+  }
 
-.forstekolonne p {
-  background-color: transparent;
-  color: #f6f1ce;
-  text-align: justify;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 16.5px;
-}
+  .menu-wrap .toggler:checked + .hamburger > div {
+    transform: rotate(135deg);
+    background-color: var(--darkblue);
+  }
 
-.andenkolonne {
-  float: left;
-  width: 450px;
-  background-color: transparent;
-  position: absolute;
-  top: 420px;
-  left: 0px;
-}
+  .menu-wrap .toggler:checked + .hamburger > div:before,
+  .menu-wrap .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+  }
 
-.andenkolonne p {
-  background-color: transparent;
-  color: #f6f1ce;
-  text-align: justify;
-  font-family: 'Viaoda Libre', cursive;
-  font-size: 16.5px;
-}
-#billedeaftaerte {
-  width: 450px;
-  top: 253px;
-  right: 250px;
-  position: absolute;
-}
+  .menu-wrap .toggler:checked ~ .menu {
+    visibility: visible;
+  }
+
+  .menu-wrap .toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+  }
+
+  .menu-wrap .toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition:  opacity 0.4s ease 0.4s;
+  }
+
+  .menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-wrap .menu > div {
+    background: var(--white);
+    border-radius: 50%;
+    width: 150vw;
+    height: 150vw;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+  }
+
+  .menu-wrap .menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .menu-wrap .menu > div > div >ul >li {
+    list-style: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: var(--white);
+  }
+
+  .menu-wrap .menu > div > div >ul >li >a {
+    color: var(--darkblue);
+    text-decoration: none;
+    transition: color 0.4s ease;
+    background-color: var(--white);
+    font-size: 40px;
+  }
+/*burgermenu slut*/
+
+  #logoimg {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .forsideposebaggrund {
+    background-color: transparent;
+  }
+
+  .nyt_design {
+    background-color: transparent;
+    background-image: var(--franskbroed);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 475px;
+  }
+
+  .nyt_design h1 {
+    margin-left: 11%;
+    margin-right: auto;
+    margin-top: -10px;
+    padding: 20px;
+    font-size: 35px;
+    background-color: transparent;
+  }
+
+  .nyt_design #franskbroed {
+    background-color: transparent;
+  }
+
+  .forsidepose {
+    width: 78%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--graa);
+  }
+
+  #p1 {
+    margin-left: 40px;
+    margin-right: 8px;
+    margin-top: 35px;
+
+    padding: 30px;
+    border-left: 6px solid var(--white);
+    font-size: 22px;
+    color: var(--white);
+    text-align: justify;
+  }
+
+  .design_hojre_venstre {
+    background-color: transparent;
+    background-image: var(--hvede);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 425px;
+  }
+
+  .design_hojre_venstre img{
+    width: 35%;
+    margin-left: 9%;
+    margin-top: 30%;
+    display: inline-block;
+    border: 0.5px solid var(--graa);
+  }
+
+  .brunbox h3 {
+    background-color: var(--brown);
+    margin: 35px;
+    padding: 15px;
+    text-align: justify;
+    color: var(--darkbrown);
+    border: 1px solid var(--graa);
+  }
+
+  #p2 {
+    margin-left: 8px;
+    margin-right: 40px;
+    margin-top: 45px;
+    padding: 30px;
+    border-right: 6px solid var(--white);
+    font-size: 22px;
+    color: var(--white);
+    text-align: justify;
+  }
+
+  form {
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    background-image: var(--teksturmobil);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 225px;
+    margin-top: 35px;
+    }
+
+  .containeret {
+    background-color: transparent;
+    padding: 5px;
+    overflow-x: hidden;
+  }
+
+  .containeret h1 {
+    margin-top: 28px;
+    text-align: center;
+    margin-left: 2%;
+    background-color: transparent;
+  }
+
+  .containeret h2 {
+    background-color: transparent;
+    text-align: center;
+    margin-left: 35%;
+    position: absolute;
+  }
+
+  input[type=text], input[type=submit] {
+    width: 80%;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: var(--white);
+    opacity: 0.8;
+    background-color: transparent;
+    margin-left: 37px;
+    margin-right: 37px;
+  }
+
+  input[type=text] {
+    border-bottom: 5px solid var(--darkblue);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+    font-size: 16px;
+    width: 72%;
+    margin-top: 15px;
+  }
+
+  input[type=submit] {
+    background-color: var(--darkblue);
+    color: var(--white);
+    border: none;
+    opacity: 1.2;
+    font-size: 20px;
+    padding: 12px;
+  }
+
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  .some {
+    margin-left: 26%;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .some h1 {
+    font-family: bebas-neue, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: transparent;
+    color: var(--white);
+    margin-left: 11.5%;
+    padding: 10px;
+  }
+
+  .somebillede img {
+    width: 20%;
+    padding: 15px;
+  }
+
+  /*      konkurrence.html      */
+
+  .computer {
+    background-color: transparent;
+    background-image: var(--computer);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+  .computer h1 {
+    background-color: transparent;
+    color: var(--darkblue);
+  }
+
+  .computer h2 {
+    background-color: transparent;
+    color: var(--darkblue);
+  }
